@@ -1,0 +1,54 @@
+{
+  "name": "model-view",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://modelview.matrado.ca",
+  "prettier": {},
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/lab": "^4.0.0-alpha.55",
+    "@turf/turf": "^5.1.6",
+    "@types/jest": "24.0.11",
+    "@types/node": "^14.0.5",
+    "@types/proj4": "^2.5.0",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-map-gl": "^5.2.4",
+    "@types/react-window": "^1.8.2",
+    "@types/victory": "^33.1.4",
+    "chokidar": "^3.5.3",
+    "date-fns": "^2.14.0",
+    "epanet-js": "^0.3.0",
+    "immutable": "^4.0.0-rc.12",
+    "ini": "^4.1.1",
+    "is-accessor-descriptor": "^1.0.1",
+    "is-data-descriptor": "^1.0.1",
+    "proj4": "^2.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-map-gl": "5.2.5",
+    "react-script": "^2.0.5",
+    "react-scripts": "3.4.1",
+    "react-window": "^1.8.5",
+    "typescript": "^3.9.3",
+    "victory": "34.3.7"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
